@@ -12,7 +12,7 @@ pos = nx.spring_layout(G)
 nx.draw_networkx_nodes(G,pos)
 nx.draw_networkx_edges(G,pos)
 nx.draw_networkx_labels(G,pos)
-# plt.show()
+plt.show()
 
 # how many points in graph? x points
 MATRIX_SIZE = 8
